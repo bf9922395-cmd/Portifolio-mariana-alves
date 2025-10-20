@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Mariana Alves</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Mariana Alves</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <button id="toggle-theme">🌙</button>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+            <p>Olá! Sou <strong>Mariana Alves</strong>, desenvolvedora Front-End Júnior apaixonada por tecnologia e design. 
+            Busco unir criatividade e lógica para desenvolver interfaces funcionais e intuitivas. 
+            Gosto de aprender novas linguagens e aprimorar minhas habilidades em JavaScript e CSS.</p>
+            <p>Nos momentos livres, adoro ler, desenhar e explorar novas ferramentas de programação.</p>
+        </section>
+
+        <section id="formacao">
+            <h2>Formação</h2>
+            <ul>
+                <li><strong>Bacharelado em Engenharia de Software</strong> – UNINTER (em andamento)</li>
+                <li><strong>Curso Técnico em Informática</strong> – SENAI</li>
+                <li><strong>Idiomas:</strong> Inglês Intermediário</li>
+            </ul>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <div class="projetos">
+                <div class="projeto">
+                    <h3>Nature Travel</h3>
+                    <p>Site responsivo sobre turismo ecológico, com design moderno e navegação intuitiva.</p>
+                </div>
+                <div class="projeto">
+                    <h3>TaskManager</h3>
+                    <p>Aplicativo em JavaScript para organização de tarefas diárias com armazenamento local.</p>
+                </div>
+                <div class="projeto">
+                    <h3>Página de Cadastro</h3>
+                    <p>Página de registro de usuários com validação de campos e layout adaptável.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar mensagem</button>
+            </form>
+
+            <div class="redes">
+                <p>Ou entre em contato pelas redes:</p>
+                <a href="mailto:mariana.alves@email.com">📧 E-mail</a> |
+                <a href="https://linkedin.com/in/marianaalves" target="_blank">💼 LinkedIn</a> |
+                <a href="https://instagram.com/mariana.codes" target="_blank">📸 Instagram</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Mariana Alves | Desenvolvido em HTML, CSS e JavaScript</p>
+    </footer>
+</body>
+</html>
